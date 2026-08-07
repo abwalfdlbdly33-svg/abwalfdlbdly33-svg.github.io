@@ -24,87 +24,55 @@ align-items:center;
 }
 
 .card{
-
 width:90%;
 max-width:400px;
-
 background:rgba(255,255,255,0.15);
-
 backdrop-filter:blur(15px);
-
 border-radius:30px;
-
 padding:30px;
-
 text-align:center;
-
 color:white;
-
 box-shadow:0 20px 40px #0005;
-
 }
 
 .profile{
-
 width:150px;
 height:150px;
-
 object-fit:contain;
-
 border-radius:50%;
-
-margin-bottom:20px;
-
+margin-bottom:15px;
 }
 
+.qr{
+width:150px;
+height:150px;
+background:white;
+padding:10px;
+border-radius:20px;
+margin:20px auto;
+display:block;
+}
 
 h1{
-
 font-size:30px;
-
 margin:10px;
-
 }
-
 
 p{
-
 font-size:18px;
-
 }
-
 
 a{
-
 display:block;
-
 margin:15px 0;
-
 padding:15px;
-
 background:white;
-
 color:#2563eb;
-
 border-radius:20px;
-
 text-decoration:none;
-
 font-size:18px;
-
 font-weight:bold;
-
-transition:.3s;
-
 }
-
-
-a:hover{
-
-transform:scale(1.05);
-
-}
-
 
 </style>
 
@@ -112,7 +80,6 @@ transform:scale(1.05);
 
 
 <body>
-
 
 <div class="card">
 
@@ -123,6 +90,9 @@ transform:scale(1.05);
 <h1>ابوالفضل عبدلی</h1>
 
 <p>کارت دیجیتال NFC</p>
+
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://abwalfdlbdly33-svg.github.io" class="qr">
 
 
 <a href="tel:09307586134">
@@ -151,7 +121,6 @@ transform:scale(1.05);
 
 
 </div>
-
 
 </body>
 </html>
